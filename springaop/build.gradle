@@ -1,0 +1,19 @@
+plugins {
+    id 'java'
+}
+
+group 'org.example'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'org.springframework:spring-context:5.2.15.RELEASE'
+    implementation 'org.aspectj:aspectjweaver:1.9.7.M3'
+}
+
+test {
+    useJUnitPlatform()
+}

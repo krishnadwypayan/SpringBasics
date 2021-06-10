@@ -1,0 +1,8 @@
+rootProject.name = 'Spring5Course'
+include 'Project1'
+include 'Proxies'
+include 'springproxy'
+include 'springdata'
+include 'springaop'
+include 'spring-webmvc'
+
